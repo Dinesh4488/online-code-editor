@@ -25,11 +25,11 @@ function Profile() {
             nav("/login");
             return;
         }
-        // Fetch shared codes
+
         fetch(`${API}/shared?email=${email}`)
             .then(res => res.json())
             .then(data => setSharedCodes(data));
-        // Fetch received codes
+
         fetch(`${API}/received?email=${email}`)
             .then(res => res.json())
             .then(data => setReceivedCodes(data));

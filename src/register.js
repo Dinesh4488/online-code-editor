@@ -7,7 +7,7 @@ function Register() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  // Use environment variable for API URL
+
   const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
   async function handlesubmit(e) {

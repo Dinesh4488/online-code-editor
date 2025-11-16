@@ -12,7 +12,7 @@ function App() {
   const nav = useNavigate();
   const isLoggedIn = localStorage.getItem("isLoggedIn");
 
-  // API base URL comes from environment; fallback to localhost for dev
+
   const API = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
   const [htmlCode, setHtml] = useState(localStorage.getItem("htmlCode") || '');
