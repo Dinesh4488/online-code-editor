@@ -64,7 +64,7 @@ npm start
 ```
 
 ### Usage
-- Visit `http://localhost:3000` to use the app.
+- Visit `[http://localhost:3000](https://resonant-fenglisu-5832f4.netlify.app/)` to use the app.
 - Register or log in.
 - Write code, preview, and share with others.
 
